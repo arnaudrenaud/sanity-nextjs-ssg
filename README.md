@@ -17,7 +17,7 @@ npm install
 Deploy schema to dataset:
 
 ```
-npx sanity deploy
+./deploy-sanity-schema.sh
 ```
 
 Start development server:
@@ -32,7 +32,7 @@ After each change:
 
 ```
 npm run typegen
-npx sanity deploy
+./deploy-sanity-schema.sh
 ```
 
 ## Production
